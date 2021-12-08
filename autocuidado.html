@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style-inicio.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <script src="scriptCarrusel.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Bangers&family=Fredoka+One&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Aprendo Jugando</title>
+    
+  </head>
+  <body >
+    <style>
+      
+    .carousel, .btn{
+      overflow: hidden;
+      position: relative;
+    }
+
+    .carousel ul{
+        position: relative;
+        list-style: none;
+        list-style-type: none;
+        margin: 0;
+        height: 380px;
+        padding: 0;
+        overflow: hidden;
+    }.carousel ul li{
+        position: absolute;
+        height: 300px;
+        width: fit-content;
+        float: left;
+        background: rgb(242, 242, 242,0.1);
+        text-align: center;
+          
+    }
+    .row, section{
+      text-align: center;
+      vertical-align: middle;
+      align-items: center;
+      
+    }
+    </style>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+      $(document).ready(function(){
+
+          $('#primera_pantalla').hide();
+      })
+    </script>
+
+    <div id="primera_pantalla" class="container-fluid class m-0 text-center p-4" style="background: linear-gradient(176deg, rgba(56,175,246,0.577468487394958) 0%, rgba(207,232,247,1) 57%, rgba(247,247,247,1) 100%);">
+        <img src="img/buhito.png" alt="logo" style="max-height: 16em; width:auto" class="pt-4 img-fluid">
+        <h1 id="titulo_neon" class="row text-center d-block display-1 p-0 m-0" style="color: rgb(238, 128, 196); line-height:80%"> <br><br> COMPRENDO JUGANDO </h1> 
+      
+
+      <div class="loadingio-spinner-ellipsis-mnej2v1rmv"><div class="ldio-iczp7kjxwwk" style="max-width: 100px; height:auto;">
+          <div></div><div></div><div></div><div></div><div></div>
+          </div></div>
+      
+    </div>
+  
+      <!--NAVBAR-->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">COMPRENDO JUGANDO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cursos
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="primero_basico.html">1° Básico</a></li>
+                  <li><a class="dropdown-item" href="segundo_basico.html">2° Básico</a></li>
+                  <li><a class="dropdown-item" href="tercero_basico.html">3° Básico</a></li>
+                  <li><a class="dropdown-item" href="cuarto_basico.html">4° Básico</a></li>
+                  <li><a class="dropdown-item" href="quinto_basico.html">5° Básico</a></li>
+                  <li><a class="dropdown-item" href="sexto_basico.html">6° Básico</a></li>
+                  <li><a class="dropdown-item" href="septimo_basico.html">7° Básico</a></li>
+                  <li><a class="dropdown-item" href="octavo_basico.html">8° Básico</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cursos.html">Todos los cursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="autocuidado.html">Desarrollo Personal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="videos_extras.html">Otros Videos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid m-0" style="background-image: url('img/fondobody.jpg');">
+          <h1 class="texto-claro text-center p-4" >Desarrollo Personal</h1>
+          <h5 class="texto-claro text-center p-4">En esta sección podrás encontrar juegos relacionados con buenos hábitos que debes cultivar en todos los ámbitos de la vida</h5>
+
+          <section class="m-0">
+            <div class="row py-1 px-4">
+              <div  class="btn col-12 position-sticky">
+                <a href="javascript:void(0);" class="btnPrevious fs-3 text-decoration-none  px-3 texto-claro" style="width: 50%;">Anterior</a>
+                <a href="javascript:void(0);" class="btnNext fs-3 text-decoration-none  px-3 texto-claro">Siguiente</a>
+              </div>
+            </div>
+            <div class="row linea_carousel">
+              <div class="carousel col-12 position-sticky">
+                  <ul style="width:100%;">
+                    <li class="videos_extra"><iframe src="https://wordwall.net/es/embed/f1c38ab175284ea1a13101a84435ebd8?themeId=22&templateId=71" width="100%" height="100%" frameborder="0" allowfullscreen></iframe></li>    
+                    <li class="videos_extra"><iframe src="https://wordwall.net/es/embed/cb524a10f4a24d49bf409ed4c6fdd852?themeId=23&templateId=70" width="100%" height="100%" frameborder="0" allowfullscreen></iframe></li>
+                    <li class="videos_extra"><iframe src="https://wordwall.net/es/embed/878cba62e4024bb5a07150ca4aa01b8f?themeId=43&templateId=8" width="100%" height="100%" frameborder="0" allowfullscreen></iframe></li>
+                    <li class="videos_extra"><iframe src="https://wordwall.net/es/embed/46e92dbc264e429fbdd370b9681ee35d?themeId=21&templateId=69" width="100%" height="100%" frameborder="0" allowfullscreen></iframe></li>
+                    <li class="videos_extra"><iframe src="https://wordwall.net/es/embed/46e92dbc264e429fbdd370b9681ee35d?themeId=21&templateId=69" width="100%" height="100%" frameborder="0" allowfullscreen></iframe></li>
+                    <li class="videos_extra"><iframe src="https://wordwall.net/es/embed/69e9bb29452f48bea55e1addf9a4ccf4?themeId=2&templateId=36" width="100%" height="100%" frameborder="0" allowfullscreen></iframe></li>
+                    <li class="videos_extra"><iframe src="https://wordwall.net/es/embed/3ca765a0481f41eeb36ba8f06bfafcca?themeId=1&templateId=5" width="100%" height="100%" frameborder="0" allowfullscreen></iframe></li>
+                    <li class="videos_extra"><iframe src="https://wordwall.net/es/embed/94d5ad9559ec4652ba3b1110ac13878d?themeId=1&templateId=8" width="100%" height="100%" frameborder="0" allowfullscreen></iframe></li>
+                    <li class="videos_extra"><iframe src="https://wordwall.net/es/embed/d0debbe74fa2499bb4f3743bb279cfa1?themeId=22&templateId=45" width="100%" height="100%" frameborder="0" allowfullscreen></iframe></li>
+                    <li class="videos_extra"><iframe src="https://wordwall.net/es/embed/a36013d740954748b9b5e66e006850f7?themeId=21&templateId=69" width="100%" height="100%" frameborder="0" allowfullscreen></iframe></li>
+                    <li class="videos_extra"><iframe src="https://wordwall.net/es/embed/c020f706de2947f4b542bddab5235c6e?themeId=1&templateId=5" width="100%" height="100%" frameborder="0" allowfullscreen></iframe></li>
+                    <li class="videos_extra"><iframe src="https://wordwall.net/es/embed/6ef3d9c5e8494fbe9355ecaffbc6156e?themeId=23&templateId=49" width="100%" height="100%" frameborder="0" allowfullscreen></iframe></li>
+                  </ul>
+              </div>
+            </div>
+          </section>
+
+    </div>
+    <!--footer-->
+    <div id="footer" class="container-fluid m-0 p-4">
+      <div class="row">
+        <span class="text-white">COMPRENDO JUGANDO <br>  © 2021 JumpToFuture</span>
+      </div>
+    </div>
+  </body>
+  <!--script carrusel-->
+  <script>
+    $(function(){
+      var carousel = $('.carousel ul');
+      var carouselChild = carousel.find('li');
+      var clickCount = 0;
+      var canClick = true;
+
+      itemWidth = carousel.find('li:first').width()+1; //Including margin
+      //Set Carousel width so it won't wrap
+      carousel.width(itemWidth*carouselChild.length);
+      //Place the child elements to their original locations.
+      refreshChildPosition();
+      //Set the event handlers for buttons.
+      $('.btnNext').click(function(){
+          if(canClick){
+              canClick = false;
+              clickCount++;
+
+              //Animate the slider to left as item width 
+              carousel.stop(false, true).animate({
+                  left : '-='+itemWidth
+              },300, function(){
+                  //Find the first item and append it as the last item.
+                  lastItem = carousel.find('li:first');
+                  lastItem.remove().appendTo(carousel);
+                  lastItem.css('left', ((carouselChild.length-1)*(itemWidth))+(clickCount*itemWidth));
+                  canClick = true;
+              });
+          }
+      });        
+      $('.btnPrevious').click(function(){
+          if(canClick){
+              canClick = false;
+              clickCount--;
+              //Find the first item and append it as the last item.
+              lastItem = carousel.find('li:last');
+              lastItem.remove().prependTo(carousel);
+
+              lastItem.css('left', itemWidth*clickCount);             
+              //Animate the slider to right as item width 
+              carousel.finish(true).animate({
+                  left: '+='+itemWidth
+              },300, function(){
+                  canClick = true;
+              });
+          }
+      });
+      function refreshChildPosition(){
+          carouselChild.each(function(){
+              $(this).css('left', itemWidth*carouselChild.index($(this)));
+          });
+      }
+  });
+  </script> 
+  </html>
