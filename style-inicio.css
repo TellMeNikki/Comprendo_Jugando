@@ -1,0 +1,52 @@
+.carousel-item {
+  max-height: 65vh;
+  background: no-repeat center top scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+}
+
+.dot {
+  cursor: pointer;
+  background-color: rgb(240, 111, 51);
+  display: inline-block;
+  transition: background-color 0.4s ease;
+}
+.carousel-caption{
+  background-color: rgba(247, 247, 247, 0.8);
+  vertical-align: bottom;
+  top:50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+.active, .dot:hover {
+    background-color: transparent;
+}
+.quote--container{
+padding: auto;
+margin: 0 auto;
+}
+.quote {
+  font-family: 'Balsamiq Sans';
+  position: relative;
+  margin-top: 0.3rem;
+  font-weight: 800;
+}
+.quote--author {
+  text-align: right;
+  font-weight: bold;
+  padding: 0px !important;
+}
+.mision{
+  font-family: 'Balsamiq Sans' !important;
+  position: relative;
+}
+.buho{
+  height: 8rem;
+}
+.titulo{
+  width: 90vw;
+}
+
+

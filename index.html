@@ -4,48 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="icon" type="image/x-icon" href="img\buhitoo_favicon.png">
+    <title>Inicio &#45; Comprendo Jugando</title>
+    <meta name="description" content="Leer nunca fue tan entrenido hasta ahora. En Comprendo Jugando encuentras libros, videos y juegos relacionandos al libro. nuestro lema es Aprender jugando!"/>
+    <link rel="canonical" href="https://www.comprendojugando.cl" />
+    <meta property="og:site_name" content="Comprendo Jugando" />
+    <meta property="og:url" content="https://www.comprendojugando.cl" />
+    <meta property="org:description" content="Leer nunca fue tan entrenido hasta ahora. En Comprendo Jugando encuentras libros, videos y juegos relacionandos al libro. nuestro lema es Aprender jugando!"/>
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="img/buhito.png" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="ComprendoJugando">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.1/css/all.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="style-inicio.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="scripts.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Bangers&family=Fredoka+One&family=Luckiest+Guy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>Aprendo Jugando</title>
+    <link rel="stylesheet" href="style-inicio.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
   </head>
   <body >
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
     <script>
       $(document).ready(function(){
-
-          $('#primera_pantalla').hide();
+        $('#primera_pantalla').hide();
       })
     </script>
-
+    <!--loading-->
     <div id="primera_pantalla" class="container-fluid class m-0 text-center p-4" style="background: linear-gradient(176deg, rgba(56,175,246,0.577468487394958) 0%, rgba(207,232,247,1) 57%, rgba(247,247,247,1) 100%);">
-        <img src="img/buhito.png" alt="logo" style="max-height: 16em; width:auto" class="pt-4 img-fluid">
-        <h1 id="titulo_neon" class="row text-center d-block display-1 p-0 m-0" style="color: rgb(238, 128, 196); line-height:80%"> <br><br> COMPRENDO JUGANDO </h1> 
-      
-
+      <img src="img/buhito.png" alt="logo" style="max-height: 16em; width:auto" class="pt-4 img-fluid">
+      <h1 id="titulo_neon" class="row text-center d-block display-1 p-0 m-0" style="color: rgb(238, 128, 196); line-height:80%"> <br><br> COMPRENDO JUGANDO </h1> 
       <div class="loadingio-spinner-ellipsis-mnej2v1rmv"><div class="ldio-iczp7kjxwwk" style="max-width: 100px; height:auto;">
-          <div></div><div></div><div></div><div></div><div></div>
-          </div></div>
-      
-  </div>
-  
+      <div></div><div></div><div></div><div></div><div></div>
+      </div></div>      
+    </div>
+    <!--página-->
     <div id="main_container" class="container-fluid">
-      <nav class="navbar navbar-expand-lg">
+      <!--NAVBAR-->
+      <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">COMPRENDO JUGANDO</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,13 +64,11 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                <a class="nav-link active bg-none" aria-current="page" href="index.html">Inicio</a>
               </li>
               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Cursos
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cursos</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="primero_basico.html">1° Básico</a></li>
                   <li><a class="dropdown-item" href="segundo_basico.html">2° Básico</a></li>
                   <li><a class="dropdown-item" href="tercero_basico.html">3° Básico</a></li>
@@ -69,7 +77,7 @@
                   <li><a class="dropdown-item" href="sexto_basico.html">6° Básico</a></li>
                   <li><a class="dropdown-item" href="septimo_basico.html">7° Básico</a></li>
                   <li><a class="dropdown-item" href="octavo_basico.html">8° Básico</a></li>
-                  </ul>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="nosotros.html">Nosotros</a>
@@ -86,14 +94,15 @@
             </ul>
           </div>
         </div>
-      </nav>
-            
-      <section class="carrusel my-3 mx-3 ">
-        <div><!--TITULO-->
-          <H1 class="display-2 tituloppal" data-aos="slide-left" data-aos-easing=»3s»  data-aos-delay=»1050″><img class="buho" src="img\buhito.png">Comprendo Jugando</H1>
+      </nav>  
+      <!--botón go to top-->    
+      <a onclick="topFunction()" type="button" id="myBtn"><i class="flecha fas fa-arrow-circle-up 9x rounded-circle"></i></a>
+      <!--sección carrusel-->
+      <section class="carrusel my-3 mx-3 mt-5 ">
+        <div class="titulo"><!--TITULO-->
+          <H1 class="tituloppal" data-aos="slide-left" data-aos-easing=»3s»  data-aos-delay=»1050″><img class="buho" src="img/buhitogif.gif">Comprendo Jugando</H1>
         </div>
-        <!-- Carousel -->
-        <div id="demo" class="carousel slide my-3 mx-3 text-center" data-bs-ride="carousel">
+        <div id="demo" class="carousel slide my-3 mx-3 text-center" data-bs-ride="carousel"><!-- Carousel -->
           <div class="carousel-indicators mt-5 text-center">
             <button type="button" data-bs-target="#demo" data-bs-slide-to="0"  class="dot" onclick="currentSlide(1)"></button>
             <button type="button" data-bs-target="#demo" data-bs-slide-to="1"class="active dot" onclick="currentSlide(2)"></button>
@@ -112,9 +121,9 @@
             </div>
             <div class="carousel-item active">
               <img src="img\img5.jpg" alt="img3" class="d-block w-100">
-              <div class=" carousel-caption quote--container py-0 mb-2">
-                <h2 class="quote fst-italic " style="color:rgb(54, 160, 241);">"Los libros son amigos que nunca decepcionan"</h2>
-                <p class="quote--author text-dark py-0 ">&ndash; Thomas Carlyle</p>
+              <div class=" carousel-caption quote--container">
+                <h2 class="fst-italic texto-oscuro ">"Los libros son amigos que nunca decepcionan"</h2>
+                <p class="quote--author text-dark">&ndash; Thomas Carlyle</p>
               </div>
             </div>
           </div>
@@ -126,77 +135,86 @@
           </button>
         </div>
       </section>
-      <section class="contenidos mx-3">
+      <!--sección misión-->
+      <section class="contenidos mx-2 pb-4 mt-5 text-center">
         <div class="row px-3 mt-4">
           <div class="col-lg-9">
-            <h1 class="texto-oscuro">Misión</h1>
-            <h3 class="mision texto-oscuro"><span class="titulo fw-bold text-warning">Comprendo Jugando</span> nace con el objetivo de incetivar la lectura de forma lúdica en niños y jóvenes de enseñanza básica, a través de juegos, videos y audiolibros. 
-              <br><br>
-              Aquí encontrarán mas de 50 actividades entre juego y videos educativos como cuentos, historias mitológicas de nuestro país y audiolibros. Además, podrás descubrir videos sobre inclusión e igualdad.
-              </h3>
+            <h2 class="texto-oscuro ms-0 ps-0">Misión</h2>
+            <h4 class="mision texto-oscuro">
+              <span class="titulo fw-bold text-warning">Comprendo Jugando</span> es una iniciativa que busca incentivar la lectura de forma lúdica en niños y jóvenes de enseñanza básica, a través de juegos, videos y audiolibros. 
+              <br><br>Aquí podrás encontrar más de 50 actividades entre juegos y videos educativos. Hay cuentos, audiolibros e  historias mitológicas de nuestro país y de América. Además, podrás descubrir videos sobre inclusión e igualdad.
+            </h4>
             <div class="col-12 text-center mt-5">
-              <a type="button" href="cursos.html" class="btn_curso border text-enter py-2 px-5 mb-3" value="ir a Cursos">ir a Videos Extras</a>
-         </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="col text-center pt-3">
-              <iframe src="https://open.spotify.com/embed/playlist/04DarE3SjqAmWMMUjgPxkR" width="324" height="385" 
-              frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              <a type="button" href="cursos.html" class="btn_curso text-enter" value="ir a Cursos"> <br>Ir a Cursos</a>
             </div>
           </div>
-
+          <div class="col-lg-3 pb-2 px-0 mx-0">
+            <div class="col text-center pt-3">
+              <iframe src="https://open.spotify.com/embed/playlist/04DarE3SjqAmWMMUjgPxkR" width="324" height="385" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+          </div>
         </div>
       </section>
-      <!--desarrollo-->
-      <div class="container-fluid desarrollo p-4 m-0 text-center texto-claro" style="min-height:650px; background-image: url('img/fondobody.jpg');">
-        <h1>Desarrollo Personal</h1>
-         <h3>En esta sección encontrarás Juegos para fomentar tu autoestima y desarrollo personal. Además de videos que no están asociados a algùn libro. </h3>
-        <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 py-4">
-          
-        </div>
-        <h4> Dando click aca podrás acceder a Videos o Desarrollo Personal </h4>
-        <a type="button" href="videos.html" class="btn_curso border text-enter py-2 px-5 mb-3" value="ir a Cursos">ir a Videos Extras</a>
-        <a type="button" href="autocuidado.html" class="btn_curso border text-enter py-2 px-5 mb-3" value="ir a Cursos">ir a Desarrollo personal</a>
-      </div>
-
-      <!--NOSOTRAS-->
-      <div id="nosotras_stripe" class="row-cols-1  p-0 m-0">
-                
-        <div class="row m-0" style="background-color: white;">
-            <div class="col p-0 m-0">
-                <div class="papa text-center m-2 p-4 fw-bold" >
-                    <h1 class="mb-4d-inline px-4 texto-oscuro">Quienes somos</h1>
-                    <h3 class="parrafos mt-4 texto-oscuro"> COMPRENDO JUGANDO Somos Genesis y Paula, alumnas de TNS en Educación Diferencial del Instituto Profesional Virginio Gómez y esta página es parte de nuestro proyecto de título.</h3>                                    
-                    <div data-aos="fade-up" data-aos-easing=»5s»  data-aos-delay=»500″ id="nosotrostexto" class="mt-2 row row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2 columnas_rebeldes pt-0 mt-0">
-                        <div data-aos="fade-up" data-aos-delay=»2000″ id="nikki" class="col p-4 padre_fotos">
-                            <div class="fondo_nosotros_card my-4">
-                                <img src="img\paula.jpeg" class="imgRedonda mt-4" alt="foto_genesis">
-                                <h4 class="pt-2 nombres text-white">Genesis Cuevas</h4>
-                                
-
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay=»2000″ id ="pancha" class="col p-4 padre_fotos">
-                            <div class="fondo_nosotros_card my-4">
-                                <img src="img\genesis.jpeg" class="imgRedonda mt-4" alt="foto_apula">
-                                <h4 class="pt-2 nombres text-white">Paula Romero</h4>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <!-- sección desarrollo-->
+      <section class="container-fluid desarrollo p-4 pb-5 mt-5 text-center texto-claro" style="min-height:650px; background-image: url('img/fondobody.jpg');">
+        <h2>Desarrollo Personal</h2>
+        <h3>Te presentamos algunos videos para fomentar tu autoestima y desarrollo personal</h3>
+        <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 py-4 text-center">
+          <div class="col"> 
+            <div class="col text-center videos p-0 img-fluid">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/eiMF6Kx0RoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-        </div><!--NOSOTRAS-->
-    
-      </div><!--NOSOTRAS-->
-
+          </div>
+          <div class="col">
+            <div class="col text-center videos p-0 img-fluid">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/NN4zN5dEb5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <h4 class="py-3"> Dando click acá podrás ver más juegos y videos</h4>
+        <div class="row row-cols-3">
+          <div class="col p-0" style="align-items: center;">
+            <a type="button" href="autocuidado.html" class="btn_curso text-enter pt-4">Desarrollo personal</a>
+          </div>
+          <div class="col p-0" style="align-items: center;">
+            <a type="button" href="videos_extras.html" class="btn_curso text-enter pt-4">Otros videos</a>
+          </div>
+          <div class="col p-0" style="align-items: center;">
+            <a type="button" href="cursos.html" class="btn_curso text-enter pt-4">Cursos</a>
+          </div>
+        </div>
+      </section>
+      <!--sección nosotras-->
+      <section id="nosotras_stripe" class="row-cols-1 pb-5 p-0 m-0 mt-5">                  
+        <div class="row m-0" style="background-color: white;">
+          <div class="col p-0 m-0">
+            <div class="papa text-center m-2 fw-bold" >
+              <h2 class="mb-4d-inline px-4 texto-oscuro">Quiénes somos</h2>
+              <h4 class="parrafos mt-4 texto-oscuro"> COMPRENDO JUGANDO somos Genesis y Paula, alumnas de TNS en Educación Diferencial del Instituto Profesional Virginio Gómez y esta página es parte de nuestro proyecto de título.</h4>                                    
+              <div data-aos="fade-up" data-aos-easing=»5s»  data-aos-delay=»500″ id="nosotrostexto" class="mt-2 row row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2 columnas_rebeldes pt-0 mt-0">
+                <div data-aos="fade-up" data-aos-delay=»2000″ id="nikki" class="col padre_fotos">
+                  <div class="fondo_nosotros_card my-4">
+                    <img src="img\genesis.jpeg" class="imgRedonda mt-4" alt="foto_genesis">
+                    <h4 class="pt-4 nombres text-white">Genesis Cuevas</h4>
+                  </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay=»2000″ id ="pancha" class="col padre_fotos">
+                  <div class="fondo_nosotros_card my-4">
+                    <img src="img\paula.jpeg" class="imgRedonda mt-4" alt="foto_apula">
+                    <h4 class="pt-4 nombres text-white">Paula Romero</h4>                        
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>      
+      </section>
       <!--footer-->
-      <div id="footer" class="container-fluid p-4 m-0">
+      <div id="footer" class="container-fluid p-4 m-0 text-center">
         <div class="row">
           <span class="text-white">COMPRENDO JUGANDO <br>  © 2021 JumpToFuture</span>
         </div>
       </div>
-
     </div>
   </body>
 </html>
